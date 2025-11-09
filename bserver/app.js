@@ -23,5 +23,5 @@ db.sequelize.authenticate()
         console.error('Unable to connect to the database:', err);
     })
 
-app.use('/users', ur);
+app.use('/user', ur);
 import './database/relations.js';
